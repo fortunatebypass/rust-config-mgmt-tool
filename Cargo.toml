@@ -1,0 +1,12 @@
+[package]
+name = "rust-config-mgmt-tool"
+version = "0.1.0"
+authors = ["Sam Bailey <sam@thatsamguy.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+structopt = "0.3"
+file_diff = "1.0"
+nix = "0.17"
