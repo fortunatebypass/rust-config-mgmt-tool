@@ -180,6 +180,7 @@ Run the following command as `root` or `sudo`, replacing the config file locatio
 E.g.:
 
 ``` BASH
+ssh user@remote-host
 ./rust-config-mgmt-tool config/config.yml
 ```
 
