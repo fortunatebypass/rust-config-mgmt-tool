@@ -255,6 +255,16 @@ If you would like to build and run in one go:
 cargo run
 ````
 
+### Tests
+
+The following tests assume you have `rustc`, `cargo` and `docker` installed.
+
+The tests are running in an Ubuntu 14.04 LTS container as the target platform.
+
+``` BASH
+./run-tests.sh
+```
+
 ### Known Issues
 
 This is a **rudimentary** config managment tool. Below are some of the currently known issues.

@@ -1,0 +1,13 @@
+---
+packages:
+- name: nginx
+  ensure: latest
+- name: curl
+  ensure: latest
+files:
+- filename: /usr/share/nginx/html/test.html
+  source: test.html
+  owner: root
+  group: root
+  mode: "0644"
+  trigger: nginx
