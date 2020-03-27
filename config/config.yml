@@ -11,9 +11,9 @@ files:
   group: root
   mode: "0644"
   trigger: nginx
-- filename: /usr/share/nginx/html/index.php
+- filename: /var/hello-world-php/index.php
   source: files/index.php
   owner: root
   group: root
   mode: "0644"
-  trigger: ""
+  trigger: "php5-fpm"
