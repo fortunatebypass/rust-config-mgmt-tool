@@ -209,7 +209,7 @@ Checking server config to match: "/root/config/config.yml"
 
 ## Develop
 
-`rust-config-mgmt-tool` has been built in [Rust](https://www.rust-lang.org/).
+### Dependencies
 
 Please install the latest available version (or at least `1.42.0`) using `rustup` following the [recommended install instructions](https://www.rust-lang.org/tools/install).
 
